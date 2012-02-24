@@ -1,0 +1,52 @@
+body {
+	background: #f3f3f3;
+	color: #333333;
+    font-family: Helvetica,Arial,Tahoma,sans-serif;
+}
+body a {
+	text-decoration: none; font-weight: bold; color: #000; outline: none; }
+body a:hover {
+	text-decoration: underline; }
+
+#container {
+	border: 1px dashed #2F3133;
+	width: 600px;
+	padding: 20px;
+	font-size: 14px;
+	margin: 40px auto;
+}
+
+#container h1 {
+	font-size: 32px;
+	text-shadow: 1px 1px 1px #CCC;
+}
+
+#container h2 {
+	font-size: 13px;
+	text-shadow: 1px 1px 1px #CCC;
+	margin-left: 2px;
+}
+
+#container ul {
+	margin: 30px 0;
+}
+
+#container ul li {
+	margin: 5px;
+}
+
+#container ul li span.error {
+	width: 16px;
+	height: 16px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+	background: transparent url('../img/error-icon.png') no-repeat;
+}
+
+#container ul li span.sucess {
+	width: 16px;
+	height: 16px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+	background: transparent url('../img/tick-icon.png') no-repeat;
+}
